@@ -1,3 +1,10 @@
+### Publication-only version of the [@red-mobile/cordova-plugin-barcodescanner](https://github.com/okhiroyuki/cordova-plugin-barcodescanner) package with some fixes. [![Latest Published Version](https://img.shields.io/npm/v/cordova-plugin-ns0m-barcodescanner)](https://www.npmjs.com/package/cordova-plugin-ns0m-barcodescanner)
+```
+cordova plugin add cordova-plugin-ns0m-barcodescanner
+```
+
+---
+
 # Cordova Plugin BarcodeScanner
 ================================
 
