@@ -4,6 +4,7 @@ bin/
 .project
 .idea
 *.iml
+*.tgz
 local.properties
 src/windows/lib/.vs
 src/windows/lib/bin

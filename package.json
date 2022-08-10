@@ -1,37 +1,42 @@
 {
-  "name": "@red-mobile/cordova-plugin-barcodescanner",
+  "name": "cordova-plugin-ns0m-barcodescanner",
   "version": "9.0.7",
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "cordova": {
-    "id": "@red-mobile/cordova-plugin-barcodescanner",
+    "id": "cordova-plugin-ns0m-barcodescanner",
     "platforms": [
-      "android"
+      "android",
+      "ios",
+      "windows",
+      "browser"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+"
-  },
+  "repository": "github:ns0m/cordova-plugin-ns0m-barcodescanner",
+  "bugs": "https://github.com/ns0m/cordova-plugin-ns0m-barcodescanner/issues",
   "keywords": [
+    "cordova",
+    "barcode",
+    "scanner",
+    "qrcode",
+    "qr",
+    "scan",
+    "camera",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova:plugin"
+    "cordova-ios",
+    "cordova-windows"
   ],
-  "author": "Adobe PhoneGap Team",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/okhiroyuki/cordova-plugin-barcodescanner/issues"
-  },
-  "homepage": "https://github.com/okhiroyuki/cordova-plugin-barcodescanner#readme",
   "scripts": {
     "test": "jasmine-node --color spec"
+  },
+  "author": "Adobe PhoneGap Team",
+  "license": "MIT",
+  "dependencies": {
+    "nopt": "^5.0.0",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "jasmine-node": "^3.0.0",
     "pluginpub": "^0.0.9"
-  },
-  "dependencies": {
-    "nopt": "^5.0.0",
-    "shelljs": "^0.8.3"
   }
 }
